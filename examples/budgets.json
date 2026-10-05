@@ -1,0 +1,9 @@
+{"version":1,"cases":[
+{"id":"v4-equal","context":"unfragmented","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1460,"carrier_mtu_bytes":1500,"encapsulation":[]},
+{"id":"v6-over","context":"unfragmented","ip_version":6,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1460,"carrier_mtu_bytes":1500,"encapsulation":[]},
+{"id":"v6-extension","context":"unfragmented","ip_version":6,"ipv4_options_bytes":0,"ipv6_extensions":[{"kind":"destination","bytes":8}],"transport":"udp","tcp_options_bytes":0,"payload_bytes":1224,"carrier_mtu_bytes":1280,"encapsulation":[]},
+{"id":"carrier-extra","context":"unfragmented","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1410,"carrier_mtu_bytes":1500,"encapsulation":[{"id":"enclosing-ip","bytes":20},{"id":"enclosing-udp","bytes":8},{"id":"shim","bytes":8},{"id":"inner-l2","bytes":14}]},
+{"id":"negative","context":"unfragmented","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"udp","tcp_options_bytes":0,"payload_bytes":0,"carrier_mtu_bytes":20,"encapsulation":[]},
+{"id":"v4-field-over","context":"unfragmented","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"udp","tcp_options_bytes":0,"payload_bytes":65508,"carrier_mtu_bytes":100000,"encapsulation":[]},
+{"id":"v6-field-equal","context":"unfragmented","ip_version":6,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"udp","tcp_options_bytes":0,"payload_bytes":65527,"carrier_mtu_bytes":100000,"encapsulation":[]}
+]}

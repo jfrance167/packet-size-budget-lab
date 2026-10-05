@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "examples/mixed.json": "b5a6bfb3e32b2b4340748f64313095a997c0856cf49cb1854ab3a1a8b8992f5c",
+    "SCHEMA.md": "e1e1ddfa1c9de52408164af9f93fffd461711a6e6e664d8703b13dd646d9be97",
+    "tests/hand-oracles.json": "7db53af4023de9d23351e330e4a1093b44de9a02d3216d487c99334b1e98000a",
+    "examples/invalid-late.json": "2444b70eda44aed32420847db187ba852d502d4e750aed5672ffcfd83099a793",
+    "examples/budgets.json": "4b7df21a96202b4d873b2978671c76f888f4bf0c0733a168062840c4752fa25f",
+    "examples/empty.json": "750ed907d3e74eb3827fd983d58594b82c1711beae085efb7843bb88beb7492b"
+  },
+  "reviewed": "2026-10-05",
+  "phase": "before-application-code"
+}

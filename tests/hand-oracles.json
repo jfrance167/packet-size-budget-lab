@@ -1,0 +1,9 @@
+{
+"v4-equal":{"ip_header_bytes":20,"transport_header_bytes":20,"inner_packet_bytes":1500,"compared_carrier_bytes":1500,"ip_field_bytes":1500,"udp_field_bytes":null,"packet_margin_bytes":0,"max_payload_bytes":1460,"violated_checks":[]},
+"v6-over":{"ip_header_bytes":40,"transport_header_bytes":20,"inner_packet_bytes":1520,"compared_carrier_bytes":1520,"ip_field_bytes":1480,"udp_field_bytes":null,"packet_margin_bytes":-20,"max_payload_bytes":1440,"violated_checks":["supplied_carrier_mtu"]},
+"v6-extension":{"ip_header_bytes":48,"transport_header_bytes":8,"inner_packet_bytes":1280,"compared_carrier_bytes":1280,"ip_field_bytes":1240,"udp_field_bytes":1232,"packet_margin_bytes":0,"max_payload_bytes":1224,"violated_checks":[]},
+"carrier-extra":{"ip_header_bytes":20,"transport_header_bytes":20,"inner_packet_bytes":1450,"compared_carrier_bytes":1500,"ip_field_bytes":1450,"udp_field_bytes":null,"packet_margin_bytes":0,"max_payload_bytes":1410,"violated_checks":[]},
+"negative":{"ip_header_bytes":20,"transport_header_bytes":8,"inner_packet_bytes":28,"compared_carrier_bytes":28,"ip_field_bytes":28,"udp_field_bytes":8,"packet_margin_bytes":-8,"max_payload_bytes":null,"violated_checks":["supplied_carrier_mtu"]},
+"v4-field-over":{"ip_header_bytes":20,"transport_header_bytes":8,"inner_packet_bytes":65536,"compared_carrier_bytes":65536,"ip_field_bytes":65536,"udp_field_bytes":65516,"packet_margin_bytes":34464,"max_payload_bytes":65507,"violated_checks":["ipv4_total_length"]},
+"v6-field-equal":{"ip_header_bytes":40,"transport_header_bytes":8,"inner_packet_bytes":65575,"compared_carrier_bytes":65575,"ip_field_bytes":65535,"udp_field_bytes":65535,"packet_margin_bytes":34425,"max_payload_bytes":65527,"violated_checks":[]}
+}

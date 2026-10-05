@@ -1,0 +1,6 @@
+{"version":1,"cases":[
+{"id":"basic","context":"unfragmented","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"udp","tcp_options_bytes":0,"payload_bytes":0,"carrier_mtu_bytes":1500,"encapsulation":[]},
+{"id":"fragment","context":"fragmentation","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1000,"carrier_mtu_bytes":500,"encapsulation":[]},
+{"id":"jumbo","context":"jumbogram","ip_version":6,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"udp","tcp_options_bytes":0,"payload_bytes":100000,"carrier_mtu_bytes":100000,"encapsulation":[]},
+{"id":"offload","context":"offload","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":10000,"carrier_mtu_bytes":1500,"encapsulation":[]}
+]}

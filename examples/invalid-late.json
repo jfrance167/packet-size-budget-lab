@@ -1,0 +1,4 @@
+{"version":1,"cases":[
+{"id":"fragment","context":"fragmentation","ip_version":4,"ipv4_options_bytes":0,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1000,"carrier_mtu_bytes":500,"encapsulation":[]},
+{"id":"bad","context":"unfragmented","ip_version":4,"ipv4_options_bytes":1,"ipv6_extensions":[],"transport":"tcp","tcp_options_bytes":0,"payload_bytes":1460,"carrier_mtu_bytes":1500,"encapsulation":[]}
+]}

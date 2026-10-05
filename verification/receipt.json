@@ -1,0 +1,61 @@
+{
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "checks": {
+    "ipv6-base-counted": {
+      "exit": 1,
+      "assertion_failures": 3
+    },
+    "mtu-equality-rejected": {
+      "exit": 1,
+      "assertion_failures": 3
+    },
+    "normal": {
+      "exit": 0
+    },
+    "optimized": {
+      "exit": 0
+    },
+    "compile": {
+      "exit": 0
+    },
+    "bandit": {
+      "exit": 0
+    }
+  },
+  "demos": {
+    "budgets.json": {
+      "exit": 0,
+      "rows": 7,
+      "status": "supported"
+    },
+    "empty.json": {
+      "exit": 0,
+      "rows": 0,
+      "status": "supported"
+    },
+    "invalid-late.json": {
+      "exit": 2,
+      "rows": null,
+      "status": null
+    },
+    "mixed.json": {
+      "exit": 3,
+      "rows": 4,
+      "status": "mixed_or_unsupported"
+    }
+  },
+  "frozen_verified": true,
+  "source_restored": true,
+  "sha256": {
+    "packet_budget.py": "11106527bf932089c9e9a2956693df2476554f00b478c4389f0071fdaeb4837c",
+    "tests/test_packet_budget.py": "b040addac977a29485871ad08befd8068762847795386fe4b6116c74a1657b82",
+    "verification/verify.py": "dbeb11080814493be9c12dd9f5d1cec5b29bc140fa6fa113d124f53968a1b568",
+    "SCHEMA.md": "e1e1ddfa1c9de52408164af9f93fffd461711a6e6e664d8703b13dd646d9be97",
+    "tests/hand-oracles.json": "7db53af4023de9d23351e330e4a1093b44de9a02d3216d487c99334b1e98000a",
+    "verification/frozen-contract.json": "1422c4efe889aa63625aaefbed5da86263350214c16fcee1a074dc5678080a47",
+    "examples/budgets.json": "4b7df21a96202b4d873b2978671c76f888f4bf0c0733a168062840c4752fa25f",
+    "examples/empty.json": "750ed907d3e74eb3827fd983d58594b82c1711beae085efb7843bb88beb7492b",
+    "examples/invalid-late.json": "2444b70eda44aed32420847db187ba852d502d4e750aed5672ffcfd83099a793",
+    "examples/mixed.json": "b5a6bfb3e32b2b4340748f64313095a997c0856cf49cb1854ab3a1a8b8992f5c"
+  }
+}
